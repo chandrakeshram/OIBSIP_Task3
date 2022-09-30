@@ -1,7 +1,7 @@
 *{
     padding: 0 0;
     margin: 0;
-    font-family: 'Anton', sans-serif;
+
 }
 body{
     background-image: url("temp.jpg");
@@ -16,6 +16,7 @@ body{
     color:#121212;
     margin-top:5rem;
     font-size: 1.5rem;
+    font-family: fantasy;
     
 }
 #tempCal{
@@ -55,10 +56,12 @@ h3{
     margin-bottom: -0.5rem;
     font-weight: bolder;
 }
+
 option{
     color: #D3D3D3;
     font-family: 'Lato', sans-serif;
     font-weight: bolder;
+    
 }
 #btn{
     background-color: #121212;
@@ -73,9 +76,14 @@ option{
     font-weight: bolder;
 }
 
-span{
-    color:#32dac3;
-    font-family: 'Lato', sans-serif;
+#res_Contain{
+    background-color: white;
+    height: 2rem;
+    width: fit-content;
+    padding: 0.3rem 0rem;
+    color: black;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
     font-weight: bolder;
 
 }
