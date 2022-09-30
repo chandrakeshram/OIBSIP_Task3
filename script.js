@@ -13,11 +13,11 @@ const calculateTemp=()=>{
     let res;
     if(valueTemp=='cel'){
         res= fahToCel(temperature);
-        document.getElementById('res_Contain').innerHTML= `= ${res}° Celsius`;
+        document.getElementById('res_Contain').innerHTML= ` ${res}° Celsius`;
     }
     else {
         res= celToFah(temperature);
-        document.getElementById('res_Contain').innerHTML= `= ${res}° Fahrenheit`;
+        document.getElementById('res_Contain').innerHTML= `${res}° Fahrenheit`;
         
     }
 
